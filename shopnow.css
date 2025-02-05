@@ -1,0 +1,127 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f8f9fa;
+    text-align: center;
+}
+
+/* Product Details Section */
+.product-details {
+    padding: 60px 20px;
+    background: white;
+}
+
+/* Container */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+    gap: 40px;
+}
+
+/* Product Image */
+.product-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Product Info */
+.product-info {
+    text-align: left;
+    max-width: 400px;
+}
+
+.product-info h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 24px;
+    color: #ff7f50;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Quantity Selector */
+.quantity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.quantity label {
+    font-size: 16px;
+    margin-right: 10px;
+    color: #333;
+}
+
+.quantity input {
+    width: 60px;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #ff7f50;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #ff6347;
+}
+
+.btn.secondary {
+    background: #333;
+    margin-left: 10px;
+}
+
+.btn.secondary:hover {
+    background: #222;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .product-info {
+        text-align: center;
+    }
+    .btn.secondary {
+        margin-left: 0;
+        display: block;
+        margin-top: 10px;
+    }
+}

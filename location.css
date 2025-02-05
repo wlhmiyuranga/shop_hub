@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f4f1ea; /* Light coffee-themed background */
+    color: #333;
+}
+
+.location {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.location-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #5c3a21; /* Coffee brown */
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #7a5c3a; /* Lighter coffee brown */
+    margin-bottom: 40px;
+}
+
+/* Map Styling */
+.map {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+iframe {
+    display: block;
+    border: none;
+}
+
+/* Address Styling */
+.address {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.address h3 {
+    font-size: 1.8rem;
+    color: #5c3a21;
+    margin-bottom: 20px;
+}
+
+.address p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #7a5c3a;
+    margin: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .address {
+        padding: 20px;
+    }
+
+    .address h3 {
+        font-size: 1.5rem;
+    }
+
+    .address p {
+        font-size: 1rem;
+    }
+}
